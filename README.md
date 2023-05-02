@@ -1,2 +1,2 @@
-# training
-This repository contains samples from my classroom and onsite courses
+# Instructions for Training Labs
+This repository contains samples from Azure custom inhouse courses
