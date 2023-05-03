@@ -1,4 +1,4 @@
-# Lab INTRO.2 - Arbeiten mit Azure Ressourcen
+# Lab INTRO.2 - Grundlegende Azure Funktionen rund um Resourcen (RBAC|Tags|Policies|Locks)
 
 ## Zeit: 30 min
 

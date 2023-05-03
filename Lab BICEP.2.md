@@ -24,14 +24,15 @@ Zeit: 20 min
 ## HINWEISE
 
 - Resourcengruppe erzeugen mit AZ
-```
+```bash
 az group create --name <group name> --location "westeurope"
 ```
 - AZ deployment group
-```
+```bash
 az deployment group create 
 ```
 
 - What If Parameter
+```bash
+az deployment group what-if 
 ```
-az deployment gr

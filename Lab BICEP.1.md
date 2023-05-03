@@ -20,15 +20,4 @@ Zeit: 20 min
 
 ## HINWEISE
 
-- Resourcengruppe erzeugen mit AZ
-```
-az group create --name <group name> --location "westeurope"
-```
-- AZ deployment group
-```
-az deployment group create 
-```
-
-- What If Parameter
-```
-az deployment gr
+- Automatisiertes Deployment der Templates mittels CLI folgt in Lab BICEP.2

@@ -11,7 +11,7 @@ Zeit: 30 min
 
 - [Optional] Installieren sie das AZURE CLI lokal 
 - ODER
-- Verwenden sie die Azure Cloud Shell
+- Verwenden sie die Azure Cloud Shell im Azure Portal
 - Konfigurieren sie az um als default location immer "westeurope" für alle Kommandos zu verwenden
 - Geben sie alle Resourcengruppen aus
 - Legen sie eine neue Resourcengruppe "azuretraining+laufendeNr" an
@@ -24,14 +24,14 @@ Zeit: 30 min
 [Download Azure CLI](https://aka.ms/installazurecliwindows)
 
 - Defaults setzen
-```
+```bash
 az configure --defaults location=westeurope 
 ODER
 az config set defaults.location=westeurope
 ```
 - Beispiel - Formatierte Ausgaben
-```
+```bash
 az group list --query "[].{RG Name:name}" -ojson 
-az group list --query "[?name == 'Qna']" -otable
+az group list --query "[?name == '<name>']" -otable
 ``` 
 
