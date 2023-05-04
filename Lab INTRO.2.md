@@ -9,7 +9,7 @@
 ---
 ### Aufgabe A
 
-* Fügen sie in ihrer Resourcengruppe einen bestehenden Benutzer in der neuen Rolle "Contribute" ein
+* Fügen sie in ihrer Resourcengruppe einen bestehenden Benutzer in der neuen Rolle "Reader" ein
 * Erstellen für die Gruppe eine neue Policy sodass eventuelle Ressourcen immer in der selben Region angelegt werden müssen wie die Resourcengruppe
 * Erstellen sie einen "Lock" auf der Gruppe, der das Löschen untersagt (ausser durch den Administrator, welcher den Lock erstellt)
 * "Taggen" sie die Gruppe mit den Tags "Training" und "Test" sodass sie global unter diesen Tags wieder gefunden werden kann
