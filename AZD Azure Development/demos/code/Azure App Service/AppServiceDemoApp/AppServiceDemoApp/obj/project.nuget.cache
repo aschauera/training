@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "hbVMLfzyp6MRfiA4Dz3LpdjaJMaEaiUX1BPqTmxwmZqg/idXa6fTj/nd2Ri/Pm4OgQeE2q84PWtzDsVOqNhPjA==",
+  "dgSpecHash": "cSZvabGIUqiJNj2HvaL3PBD8zjd8lPHQ/FKCX/55rS0oGlyk0nTLT5jL3L/5t9Ckj3PMan2+/j0pSIkz+4MgFg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\anaschau\\OneDrive\\Training\\Azure Development\\Demos\\Code\\Azure App Service\\AppServiceDemoApp\\AppServiceDemoApp\\AppServiceDemoApp.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Repos\\training\\AZD Azure Development\\demos\\code\\Azure App Service\\AppServiceDemoApp\\AppServiceDemoApp\\AppServiceDemoApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\anaschau\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\anaschau\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\anaschau\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\anaschau\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.16\\microsoft.netcore.app.host.win-x64.6.0.16.nupkg.sha512"
+  ],
   "logs": []
 }
