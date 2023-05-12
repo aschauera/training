@@ -1,0 +1,36 @@
+C:\Users\anaschau\OneDrive\Training\Azure Development\Demos\dotnet\AzureAppInsights\AppInsightsDemo\bin\Debug\net6.0\AppInsightsDemo.exe
+C:\Users\anaschau\OneDrive\Training\Azure Development\Demos\dotnet\AzureAppInsights\AppInsightsDemo\bin\Debug\net6.0\AppInsightsDemo.deps.json
+C:\Users\anaschau\OneDrive\Training\Azure Development\Demos\dotnet\AzureAppInsights\AppInsightsDemo\bin\Debug\net6.0\AppInsightsDemo.runtimeconfig.json
+C:\Users\anaschau\OneDrive\Training\Azure Development\Demos\dotnet\AzureAppInsights\AppInsightsDemo\bin\Debug\net6.0\AppInsightsDemo.dll
+C:\Users\anaschau\OneDrive\Training\Azure Development\Demos\dotnet\AzureAppInsights\AppInsightsDemo\bin\Debug\net6.0\AppInsightsDemo.pdb
+C:\Users\anaschau\OneDrive\Training\Azure Development\Demos\dotnet\AzureAppInsights\AppInsightsDemo\bin\Debug\net6.0\Microsoft.ApplicationInsights.dll
+C:\Users\anaschau\OneDrive\Training\Azure Development\Demos\dotnet\AzureAppInsights\AppInsightsDemo\obj\Debug\net6.0\AppInsightsDemo.csproj.AssemblyReference.cache
+C:\Users\anaschau\OneDrive\Training\Azure Development\Demos\dotnet\AzureAppInsights\AppInsightsDemo\obj\Debug\net6.0\AppInsightsDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anaschau\OneDrive\Training\Azure Development\Demos\dotnet\AzureAppInsights\AppInsightsDemo\obj\Debug\net6.0\AppInsightsDemo.AssemblyInfoInputs.cache
+C:\Users\anaschau\OneDrive\Training\Azure Development\Demos\dotnet\AzureAppInsights\AppInsightsDemo\obj\Debug\net6.0\AppInsightsDemo.AssemblyInfo.cs
+C:\Users\anaschau\OneDrive\Training\Azure Development\Demos\dotnet\AzureAppInsights\AppInsightsDemo\obj\Debug\net6.0\AppInsightsDemo.csproj.CoreCompileInputs.cache
+C:\Users\anaschau\OneDrive\Training\Azure Development\Demos\dotnet\AzureAppInsights\AppInsightsDemo\obj\Debug\net6.0\AppInsightsDemo.csproj.CopyComplete
+C:\Users\anaschau\OneDrive\Training\Azure Development\Demos\dotnet\AzureAppInsights\AppInsightsDemo\obj\Debug\net6.0\AppInsightsDemo.dll
+C:\Users\anaschau\OneDrive\Training\Azure Development\Demos\dotnet\AzureAppInsights\AppInsightsDemo\obj\Debug\net6.0\refint\AppInsightsDemo.dll
+C:\Users\anaschau\OneDrive\Training\Azure Development\Demos\dotnet\AzureAppInsights\AppInsightsDemo\obj\Debug\net6.0\AppInsightsDemo.pdb
+C:\Users\anaschau\OneDrive\Training\Azure Development\Demos\dotnet\AzureAppInsights\AppInsightsDemo\obj\Debug\net6.0\AppInsightsDemo.genruntimeconfig.cache
+C:\Users\anaschau\OneDrive\Training\Azure Development\Demos\dotnet\AzureAppInsights\AppInsightsDemo\obj\Debug\net6.0\ref\AppInsightsDemo.dll
+C:\Users\anaschau\OneDrive\Training\Azure Development\Demos\dotnet\AzureAppInsights\AppInsightsDemo\bin\Debug\net6.0\Microsoft.AI.DependencyCollector.dll
+C:\Users\anaschau\OneDrive\Training\Azure Development\Demos\Code\Azure AppInsights\AppInsightsDemo\bin\Debug\net6.0\AppInsightsDemo.exe
+C:\Users\anaschau\OneDrive\Training\Azure Development\Demos\Code\Azure AppInsights\AppInsightsDemo\bin\Debug\net6.0\AppInsightsDemo.deps.json
+C:\Users\anaschau\OneDrive\Training\Azure Development\Demos\Code\Azure AppInsights\AppInsightsDemo\bin\Debug\net6.0\AppInsightsDemo.runtimeconfig.json
+C:\Users\anaschau\OneDrive\Training\Azure Development\Demos\Code\Azure AppInsights\AppInsightsDemo\bin\Debug\net6.0\AppInsightsDemo.dll
+C:\Users\anaschau\OneDrive\Training\Azure Development\Demos\Code\Azure AppInsights\AppInsightsDemo\bin\Debug\net6.0\AppInsightsDemo.pdb
+C:\Users\anaschau\OneDrive\Training\Azure Development\Demos\Code\Azure AppInsights\AppInsightsDemo\bin\Debug\net6.0\Microsoft.ApplicationInsights.dll
+C:\Users\anaschau\OneDrive\Training\Azure Development\Demos\Code\Azure AppInsights\AppInsightsDemo\bin\Debug\net6.0\Microsoft.AI.DependencyCollector.dll
+C:\Users\anaschau\OneDrive\Training\Azure Development\Demos\Code\Azure AppInsights\AppInsightsDemo\obj\Debug\net6.0\AppInsightsDemo.csproj.AssemblyReference.cache
+C:\Users\anaschau\OneDrive\Training\Azure Development\Demos\Code\Azure AppInsights\AppInsightsDemo\obj\Debug\net6.0\AppInsightsDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anaschau\OneDrive\Training\Azure Development\Demos\Code\Azure AppInsights\AppInsightsDemo\obj\Debug\net6.0\AppInsightsDemo.AssemblyInfoInputs.cache
+C:\Users\anaschau\OneDrive\Training\Azure Development\Demos\Code\Azure AppInsights\AppInsightsDemo\obj\Debug\net6.0\AppInsightsDemo.AssemblyInfo.cs
+C:\Users\anaschau\OneDrive\Training\Azure Development\Demos\Code\Azure AppInsights\AppInsightsDemo\obj\Debug\net6.0\AppInsightsDemo.csproj.CoreCompileInputs.cache
+C:\Users\anaschau\OneDrive\Training\Azure Development\Demos\Code\Azure AppInsights\AppInsightsDemo\obj\Debug\net6.0\AppInsightsDemo.csproj.CopyComplete
+C:\Users\anaschau\OneDrive\Training\Azure Development\Demos\Code\Azure AppInsights\AppInsightsDemo\obj\Debug\net6.0\AppInsightsDemo.dll
+C:\Users\anaschau\OneDrive\Training\Azure Development\Demos\Code\Azure AppInsights\AppInsightsDemo\obj\Debug\net6.0\refint\AppInsightsDemo.dll
+C:\Users\anaschau\OneDrive\Training\Azure Development\Demos\Code\Azure AppInsights\AppInsightsDemo\obj\Debug\net6.0\AppInsightsDemo.pdb
+C:\Users\anaschau\OneDrive\Training\Azure Development\Demos\Code\Azure AppInsights\AppInsightsDemo\obj\Debug\net6.0\AppInsightsDemo.genruntimeconfig.cache
+C:\Users\anaschau\OneDrive\Training\Azure Development\Demos\Code\Azure AppInsights\AppInsightsDemo\obj\Debug\net6.0\ref\AppInsightsDemo.dll

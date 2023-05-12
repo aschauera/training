@@ -1,0 +1,7 @@
+C:\Users\anaschau\OneDrive\Training\Azure Development\Demos\Code\Azure App Service\AppServiceDemoApp\AppServiceDemoApp\obj\Release\net6.0\PubTmp\Out\AppServiceDemoApp.exe
+C:\Users\anaschau\OneDrive\Training\Azure Development\Demos\Code\Azure App Service\AppServiceDemoApp\AppServiceDemoApp\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\anaschau\OneDrive\Training\Azure Development\Demos\Code\Azure App Service\AppServiceDemoApp\AppServiceDemoApp\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\anaschau\OneDrive\Training\Azure Development\Demos\Code\Azure App Service\AppServiceDemoApp\AppServiceDemoApp\obj\Release\net6.0\PubTmp\Out\AppServiceDemoApp.dll
+C:\Users\anaschau\OneDrive\Training\Azure Development\Demos\Code\Azure App Service\AppServiceDemoApp\AppServiceDemoApp\obj\Release\net6.0\PubTmp\Out\AppServiceDemoApp.deps.json
+C:\Users\anaschau\OneDrive\Training\Azure Development\Demos\Code\Azure App Service\AppServiceDemoApp\AppServiceDemoApp\obj\Release\net6.0\PubTmp\Out\AppServiceDemoApp.runtimeconfig.json
+C:\Users\anaschau\OneDrive\Training\Azure Development\Demos\Code\Azure App Service\AppServiceDemoApp\AppServiceDemoApp\obj\Release\net6.0\PubTmp\Out\AppServiceDemoApp.pdb

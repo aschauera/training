@@ -1,0 +1,5 @@
+az account list-locations --query "[].{Region:name}" --out table
+
+az storage account create --name bksprep01 --resource-group Prep --location westeurope --sku Standard_RAGRS --kind StorageV2
+#Service Endpunkte
+az storage account show --resource-group Prep --name bksprep01 --query '[primaryEndpoints, secondaryEndpoints]'

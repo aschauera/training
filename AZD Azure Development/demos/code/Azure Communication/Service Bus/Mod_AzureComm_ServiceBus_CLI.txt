@@ -1,0 +1,22 @@
+#get connection string
+az servicebus namespace authorization-rule keys list \
+    --resource-group [sandbox resource group name] \
+    --name RootManageSharedAccessKey \
+    --query primaryConnectionString \
+    --output tsv \
+    --namespace-name <namespace-name>
+
+#show number of messages in queue
+az servicebus queue show \
+    --resource-group [sandbox resource group name] \
+    --name salesmessages \
+    --query messageCount \
+    --namespace-name <namespace-name>
+
+dotnet new console --name ServiceBusDemo
+cd ServiceBusDemo
+dotnet add package Azure.Messaging.ServiceBus
+dotnet add package Microsoft.Azure.Management.ServiceBus.Fluent
+
+#create topic
+az servicebus topic create --name aapreptopic --namespace-name aaprepbus --resource-group Prep

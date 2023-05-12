@@ -1,0 +1,31 @@
+﻿#!/bin/bash
+
+##Creata an Ubuntu VM from scratch, open ports and SSH and install NGINX via custom script
+
+# Create a resource group.
+az group create --name AzureTrainingVM --location westeurope
+
+# Create a new virtual machine, this creates SSH keys if not present.
+az vm create --resource-group AzureTrainingVM --name UbuntuVM --image UbuntuLTS --generate-ssh-keys
+
+# Open port 80 to allow web traffic to host.
+az vm open-port --port 80 --resource-group AzureTrainingVM --name UbuntuVM 
+az vm open-port --port 22 --resource-group AzureTrainingVM --name UbuntuVM 
+
+# Use CustomScript extension to install NGINX.
+az vm extension set \
+  --publisher Microsoft.Azure.Extensions \
+  --version 2.0 \
+  --name CustomScript \
+  --vm-name UbuntuVM \
+  --resource-group AzureTrainingVM \
+  --settings '{"commandToExecute":"apt-get -y update && apt-get -y install nginx"}'
+
+# Scale Set
+az vmss create  --resource-group Mod04ScaleSet  --name AzureTrainingScaleSet  --image UbuntuLTS  --upgrade-policy-mode automatic  --admin-username anaschau  --generate-ssh-keys
++ Port 80 through load balancer
+az network lb rule create  --resource-group Mod04ScaleSet --name myLoadBalancerRuleWeb --lb-name myScaleSetLB --backend-pool-name myScaleSetLBBEPool --backend-port 80 --frontend-ip-name loadBalancerFrontEnd --frontend-port 80 --protocol tcp
+
+#Clean up
+az vm delete --name UbuntuVM --resource-group AzureTrainingVM
+az group delete --resource-group AzureTrainingVM

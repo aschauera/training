@@ -1,0 +1,14 @@
+
+az configure --defaults group=AzureTraining location=westeurope
+az account set --subscription MyAzureSub
+
+#create event hub
+NS_NAME=azuretraininghub030220
+az eventhubs namespace create --name $NS_NAME
+#get connection string
+az eventhubs namespace authorization-rule keys list --name RootManageSharedAccessKey --namespace-name $NS_NAME
+
+#Node
+npm install @azure/event-hubs
+npm install @azure/storage-blob
+npm install @azure/eventhubs-checkpointstore-blob

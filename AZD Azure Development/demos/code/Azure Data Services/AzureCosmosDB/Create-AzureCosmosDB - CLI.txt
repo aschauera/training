@@ -1,0 +1,15 @@
+$resourceGroupName="Prep"
+$location="westeurope"
+$suffix=$RANDOM*$RANDOM
+$accountName=training01
+
+az group create --name $resourceGroupName --location $location
+az cosmosdb create --resource-group $resourceGroupName --name $accountName --locations regionName=$location --capabilities EnableTable
+
+#Connection String
+az cosmosdb list-connection-strings --resource-group $resourceGroupName --name $accountName
+
+#Setup console app
+
+dotnet new console --output AzureCosmosDBDemo
+dotnet add package Azure.Data.Tables

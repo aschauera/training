@@ -1,0 +1,15 @@
+#Create storage account
+az storage account create --name [unique-name] -g [sandbox resource group name] --kind StorageV2 --sku Standard_LRS
+#Get access keys
+az storage account keys list
+#Get connection string
+az storage account list
+#ODER
+Get-AzStorageAccount | Format-Table -Property StorageAccountName,ResourceGroupName
+
+az storage account show-connection-string --name aschisbackup--resource-group aschisbackup
+
+dotnet new console
+dotnet add package WindowsAzure.Storage
+#Check results
+az storage message peek --queue-name newsqueue --connection-string <connection-string>

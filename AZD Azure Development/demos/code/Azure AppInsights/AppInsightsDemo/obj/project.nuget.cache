@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "aIUtPVvpX/tECd0gBlYCUcmKCBbtzIOVc2WOBi6sjcpO4bo+P58EJCw6emiO5NEKwW/F/nDc/FY4kYc/8F9A/A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\anaschau\\OneDrive\\Training\\Azure Development\\Demos\\Code\\Azure AppInsights\\AppInsightsDemo\\AppInsightsDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\anaschau\\.nuget\\packages\\microsoft.applicationinsights\\2.21.0\\microsoft.applicationinsights.2.21.0.nupkg.sha512",
+    "C:\\Users\\anaschau\\.nuget\\packages\\microsoft.applicationinsights.dependencycollector\\2.21.0\\microsoft.applicationinsights.dependencycollector.2.21.0.nupkg.sha512",
+    "C:\\Users\\anaschau\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

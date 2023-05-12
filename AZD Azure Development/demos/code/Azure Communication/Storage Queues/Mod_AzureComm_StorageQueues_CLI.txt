@@ -1,0 +1,30 @@
+# create storage account PS
+$resourceGroup = "bks"
+$location = "west europe"
+#New-AzResourceGroup -Name $resourceGroup -Location $location
+
+New-AzStorageAccount -ResourceGroupName $resourceGroup `
+  -Name <account-name> `
+  -Location $location `
+  -SkuName Standard_RAGRS `
+  -Kind StorageV2
+#Get connection string
+(Get-AzStorageAccount -ResourceGroupName <resource-group> -Name <storage-account>).Context.ConnectionString
+
+
+#Create storage account CLI
+az storage account create --name [unique-name] -g [sandbox resource group name] --kind StorageV2 --sku Standard_LRS
+#Get access keys
+az storage account keys list
+#Get connection string
+az storage account list
+#ODER
+Get-AzStorageAccount | Format-Table -Property StorageAccountName,ResourceGroupName
+
+az storage account show-connection-string --name aschisbackup--resource-group aschisbackup
+
+dotnet new console
+dotnet add package Azure.Storage
+dotnet add package Azure.Identity
+#Check results
+az storage message peek --queue-name newsqueue --connection-string <connection-string>

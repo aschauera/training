@@ -1,0 +1,44 @@
+// using Microsoft.Identity.Client;
+// using System.Security.Cryptography.X509Certificates;
+// using System.Threading.Tasks;
+// using Microsoft.Graph
+
+// namespace argQuery
+// {
+//     class ProgramMSAL
+//     {
+//         static async Task Main(string[] args)
+//         {
+//             var strInstance = "https://login.microsoftonline.com/";
+//             var strClientId = "ClientId";
+//             var strTenantId = "[Enter 'common', or 'organizations' or the Tenant Id (Obtained from the Azure portal. Select 'Endpoints' from the 'App registrations' blade and use the GUID in any of the URLs), e.g. da41245a5-11b3-996c-00a8-4d99re19f292]";
+//             var strRedirectUrl = "http://localhost";
+//             var strResourceUrl = "https://graph.microsoft.com/v1.0/";
+//             var strAuthority = string.Concat(strInstance,strTenantId);
+
+//             // We intend to obtain a token for Graph for the following scopes (permissions)
+//             string[] scopes = new[] { "user.read" };
+            
+//             // Initialize the MSAL library by building a public client application
+//             var application = PublicClientApplicationBuilder.Create(strClientId)
+//                                                       .WithAuthority(strAuthority)
+//                                                       .WithDefaultRedirectUri()
+//                                                       .Build();
+
+//             AuthenticationResult result;
+//             try
+//             {
+//                 var accounts = await application.GetAccountsAsync();
+//                 result = await application.AcquireTokenSilent(scopes, accounts.FirstOrDefault())
+//                     .ExecuteAsync();
+//             }
+//             catch (MsalUiRequiredException ex)
+//             {
+//                 result = await application.AcquireTokenInteractive(scopes)
+//                 .WithClaims(ex.Claims)
+//                 .ExecuteAsync();
+//             }
+
+//         }
+//     }
+// }

@@ -1,0 +1,12 @@
+#Erstellen aus HelloWorld Image
+az container create --resource-group Prep --name aaprepcontainer01 --image mcr.microsoft.com/azuredocs/aci-helloworld --dns-name-label aci-demo-aa01 --ports 80
+#Status
+az container show --name aaprepcontainer01 --resource-group Prep
+
+#Logs
+az container logs --resource-group myResourceGroup --name mycontainer
+# Attach to STDOUT
+az container attach --resource-group myResourceGroup --name mycontainer
+
+az container delete --resource-group myResourceGroup --name mycontainer
+

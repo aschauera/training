@@ -1,0 +1,5 @@
+# Register SQL extension resource provider
+Register-AzResourceProvider -ProviderNamespace Microsoft.SqlVirtualMachine
+#Add SQL extension to VM
+az sql vm create --name "sqlTrainingVM" --resource-group sql --location westeurope --license-type Standard
+az sql vm show --resource-group sql

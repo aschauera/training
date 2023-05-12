@@ -1,0 +1,68 @@
+https://learn.microsoft.com/en-us/azure/container-instances/container-instances-tutorial-prepare-app
+
+#Eigene images in bauen
+
+git clone https://github.com/Azure-Samples/aci-helloworld.git
+docker build ./aci-helloworld -t aci-tutorial-app
+docker images
+docker run -d -p 8080:80 aci-tutorial-app
+Browse to: http://localhost:8080
+docker stop
+
+#Images in Container registry hochladen
+az acr create --name myregistry --resource-group mygroup --sku standard --admin-enabled true
+az acr login --name myregistry
+#Login name der ACR holen und image taggen
+az acr show --name <acrName> --query loginServer --output table
+docker tag aci-tutorial-app <acrLoginServer>/aci-tutorial-app:v1
+docker images #sollte getaggtes image zeigen als zweites image
+#Pushed (aufgrund az acr login in ACR)
+docker push bkstrainingreg02.azurecr.io/aci-tutorial-app
+
+#ACR images auflisten
+az acr repository list --name <acrName> --output table
+
+
+# In ACI deployen
+az container create --resource-group prep --name aci-tutorial-app --image bkstrainingreg02.azurecr.io/aci-tutorial-app:v1 --cpu 1 --memory 1 --registry-login-server bkstrainingreg02.azurecr.io --registry-username f4609bfd-bc4a-4b31-8129-37e27b3eee67 --registry-password GlT8Q~M2GaloK8LRDAajZl3VRH2-CAJf6zGAHdB3 --ip-address Public --dns-name-label aci-tutorial-aa02 --ports 80
+
+
+#DOCKER Image Pushen
+docker pull mcr.microsoft.com/hello-world
+docker tag mcr.microsoft.com/hello-world bkstrainingregistry01.azurecr.io/hello-world:v1
+docker push <login-server>/hello-world:v1
+docker rmi <login-server>/hello-world:v1
+
+#Container pullen und ausführen
+docker run <login-server>/hello-world:v1
+
+
+
+#Dotnet Sample Web Application Container
+
+az acr login -n bkstrainingreg02.azurecr.io
+
+git clone https://github.com/Azure-Samples/acr-helloworld.git
+cd acr-helloworld
+##update DOCKERFILE
+docker build . -f ./AcrHelloworld/Dockerfile -t <acrName>.azurecr.io/acr-helloworld:v1
+
+docker images
+docker push <acrName>.azurecr.io/acr-helloworld:v1
+#Azure Portal -> Deploy from ACR to WebApp
+#Show running app in browser
+Update index.cshtml
+docker build . -f ./AcrHelloworld/Dockerfile -t <acrName>.azurecr.io/acr-helloworld:v1
+docker push <acrName>.azurecr.io/acr-helloworld:v1
+
+# Switch "Admin Mode" muss aktiv sein damit deploy to webapp geht!
+# SHow Webhook
+
+#Get Webhook URL
+az webapp deployment container show-cd-url --name MyWebApp --resource-group MyResourceGroup
+
+#Connect ACR to webapp by CLI
+
+az webapp deployment container config --enable-cd true --name MyWebapp --resource-group MyResourceGroup
+
+
