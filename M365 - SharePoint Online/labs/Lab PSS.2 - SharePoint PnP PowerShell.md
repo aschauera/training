@@ -25,8 +25,13 @@ Mittels der PowerShell ISE oder Terminal
 
 ## HINWEISE
 
-* Benötigte PowerShell Module: SharePoint Online Manamgement Shell
-  * Download unter: https://www.microsoft.com/en-us/download/details.aspx?id=35588
+* Benötigte PowerShell Module: 
+* SharePoint Online Management Shell
+  * Download: https://www.microsoft.com/en-us/download/details.aspx?id=35588
+* SharePoint Client Components
+  * Download https://www.microsoft.com/en-us/download/details.aspx?id=42038
+
+
 * Verbindung herstellen
 ```powershell
 Connect-PnPOnline –Url <url der site>
