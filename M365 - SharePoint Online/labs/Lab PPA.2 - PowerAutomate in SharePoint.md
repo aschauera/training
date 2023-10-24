@@ -1,4 +1,4 @@
-# Lab PPA.1 - PowerApps Formulare in SharePoint
+# Lab PPA.2 - Power Automate Formulare in SharePoint
 Zeit: 45 min
 
 
@@ -9,23 +9,7 @@ Mittels Power Apps passen sie zudem die SharePoint Listenformulare an und gestal
 - Verständnis für die Power Platform in M365
 - Verständnis für die Erstellung von Apps mit Power Apps
 
-## Aufgabe A: SharePoint Formulare gestalten mit Power Apps
-
-In [Microsoft SharePoint](https://crm149144.sharepoint.com/_layouts/15/sharepoint.aspx)
-
-* Auf ihrer Liste "Training", passen sie das Listen Formular an um eine interaktives Erlebnis zu schaffen. Folgende Funktionen sollen umgesetzt werden:
-
-| Funktion        | Feld | Hinweise |
-|--------------|:-----:|-----------:|
-| Farbliche Kennzeichnung  |  Dauer |Hintergrundfarbe Rot wenn > 3 |
-| Sichtbarkeit  | Genehmigung erforderlich | Sichtbar wenn Dauer > 3 |
-
-### Diskussion
-
-Frage/Diskussion: Wie könnten sie die Bedingung ( > 3 ) dynamisch gestalten, sodass bei einer Änderung nicht an jeder Stelle abgeändert werden muss?
-
-
-## Aufgabe B: Eigenständige SharePoint Apps
+## Aufgabe: 
 
 Um Benutzern auf Mobilgeräten eine schnelle Interaktion zu ermöglichen, erstellen sie eine eigene Power App.
 
@@ -42,7 +26,30 @@ In [Microsoft SharePoint](https://crm149144.sharepoint.com/_layouts/15/sharepoin
 |:--:|
 | *Abbildung 1 - Filter der Gallerie der SharePoint Einträge* |
 
+* Die Gallerie soll pro Eintrag folgendes Icon anzeigen, basierend auf dem Status:
+  * Geplant: Icon.Clock
+  * Storniert: Icon.Cancel (badge)
+  * Abgeschlossen: Icon.Check (badge)
+
 * Die Gallerie soll Schnellaktionen erhalten. Fügen sie dazu einen Button ein, welcher beim Klick, den Status der gewählten Zeile auf "Abgeschlossen" setzt.
 
 * Die Gallerie soll es zudem erlauben ein Training auszuwählen und auf einem Detailformular Feedback zu erfassen - was ist dafür nötig?
 
+## Hinweise
+* Power Apps - Beispiel für eine Formel zu Feldaktualisierung
+```powerfx
+Patch(Trainings,LookUp(Trainings,ID=ThisItem.ID),{Status:{Value:"Abgeschlossen"}})
+```
+
+* Power Apps. Beispiel zur Navigation auf einen Screen mit Übergabe von 2 Werten. Die beiden Werte stehen am Zielbildschirm unter den Namen *Name1* und *Name2* zur Verfügung.
+
+```powerfx
+Navigate(
+    <ScreenName>,
+    <ScreenTransition>,
+    {
+        Name1: <Wert>,
+        Name2: <Wert>
+    }
+)
+```
