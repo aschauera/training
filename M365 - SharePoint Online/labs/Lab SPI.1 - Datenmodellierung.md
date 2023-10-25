@@ -8,6 +8,9 @@ In diesem Lab erstellen sie die Grundlegende Datenstruktur für die Lösung zur 
 
 ## Aufgabe
 
+Verwenden sie einen der Benutzer aus der [Liste](Users.md).
+Das Passwort haben sie als seperate Nachricht über den virtuellen Klassenraum erhalten.
+
 In [Microsoft SharePoint](https://crm149144.sharepoint.com/_layouts/15/sharepoint.aspx)
  
 * Erstellen sie eine neue SharePoint SITE 
