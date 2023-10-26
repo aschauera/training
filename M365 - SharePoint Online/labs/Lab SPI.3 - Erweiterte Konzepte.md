@@ -18,7 +18,7 @@ In [Microsoft SharePoint](https://crm149144.sharepoint.com/_layouts/15/sharepoin
 |--------------|:-----:|-----------:|------:|
 | Training [Kürzel] |  [Neu erstellen] |        List Content Types | Item |
 
-* Fügen sie die Spalten aus dem Lab SPI.1 dem Inhaltstyp hinzu
+* Fügen sie die Spalten aus dem [Lab SPI.1](<Lab SPI.1 - Datenmodellierung.md>) dem Inhaltstyp hinzu
 * Verändern sie die Liste "Trainings [Kürzel] sodass, diese Liste nun auf Basis von Inhaltstypen arbeitet und fügen sie den eben erstellten Inhaltstyp in die Liste ein.
 
 * Erstellen sie eine Ansicht, welche nur die Einträge der Liste vom Inhaltstyp "Training" enthält.
@@ -43,6 +43,8 @@ In [Microsoft SharePoint](https://crm149144.sharepoint.com/_layouts/15/sharepoin
 | Name         | Category | Parent Category | Parent Content Type |
 |--------------|:-----:|-----------:|------:|
 | Zertifikat [Kürzel] |  [Neu erstellen] |        Document Content Types | Document |
+
+* Passen sie die Dokumentenvorlage für den Inhaltstyp in Word an.
 
 ## HINWEISE
 
