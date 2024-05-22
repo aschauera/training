@@ -1,6 +1,6 @@
 MARKDOWN
 
-# Power Platform - Grundlagen
+# Lab SOL.1 - Power Platform - Grundlagen
 
 ## Zeit: 20 min
 
