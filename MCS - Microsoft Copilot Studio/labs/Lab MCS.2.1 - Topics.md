@@ -48,6 +48,16 @@ Zeit: 30 min
 - Mittels *Slot Filling* und *Entities* wurden die Nutzereingaben natürlich und gleichzeitig valide gestaltet.
 - Dynamische Werte wurden als *Variablen* übergeben und mittels *PowerFX* Formeln errechnet.
 
+### Hinweise
+
+- PowerFX Formeln lassen sich sehr gut mit Microsoft Copilot erstellen - zumindest einfache ;)
+
+- Beispielzeitberechnung in PowerFX
+
+```
+DateAdd(Today(), 2,TimeUnit.Days)
+```
+
 ## Weiterführende Links
 - [Copilot Studio Slot Filling and Entities](https://learn.microsoft.com/en-us/microsoft-copilot-studio/advanced-entities-slot-filling)
 - [Copilot Studio Topic Authoring Best Practices](https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/topic-authoring-best-practices)
