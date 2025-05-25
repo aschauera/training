@@ -24,20 +24,27 @@ Zeit: 15 min
 
 **1. Agent Knowledge**
 
-- Legen sie das grundlegende Verhalten des Helpdesk Agents fest. Der Agent soll freundlich aber professionell antworten und sicherstellen, dass Antworten:
+- Fügen sie dem Agent die Ticketdatenbank als Wissenquelle hinzu
+- Unter [make.powerapps.com](https://make.powerapps.com) navigieren sie zu *Tables* / *Tabellen*
+- Klicken sie oben im Menü auf *Import > Test / CSV* und verwenden sie die Beispielticketdaten als URL
+[https://raw.githubusercontent.com/aschauera/training/refs/heads/master/MCS%20-%20Microsoft%20Copilot%20Studio/labs/data/MCS.3.2%20-%20Sample%20Helpdesk%20Tickets.csv](https://raw.githubusercontent.com/aschauera/training/refs/heads/master/MCS%20-%20Microsoft%20Copilot%20Studio/labs/data/MCS.3.2%20-%20Sample%20Helpdesk%20Tickets.csv)
 
-    - Immer einen Hinweis auf weitere Supportkanäle enthalten
-    - Quellen immer angeführt werden.
+- Stellen sie den Importassistenten fertig, sodass ein Dataverse Tabelle mit den Ticketdaten erstellt wird.
+- Hinweis: Verwenden sie den Schritt "Use first row as headers" damit die erste Zeile als Spaltenüberschriften erkannt werden
+![](../img/M04_ImportTicketData.png)
+- Diese neue Tabelle soll nun als Grundlage verwendet werden, um Antworten zu Tickets zu ermöglichen.
 
-- Testen sie das Verhalten des Agenten. Durch Eingabe einer Frage, welche nicht durch ein Thema abedeckt ist. 
-    - Beispiel: "Wie setze ich mein Passwort zurück?"
+- Sobald die Tabelle erstellt ist  (Den Status sehen sie unter dem Menüpunkt *Dataflows*), fügen sie diese als Wissensquelle in ihre Agent ein.
+- Sollte die neue Tabelle nicht erscheinen, navigieren sie zur Tabelle und stellen sie sicher, dass die Option zur Suche gesetzt ist.
+![Dataverse Search](../img/M04_EnableDVSearch.png)
+- Fügen sie dann zusätzlich das [IT Helpdesk Wissensdokument](../labs/data/M03%20GenAnswers%20-%20HelpDesk%20KB%20Document.pdf) hinzu mittels *Upload*
 
-- Erweitern sie die Instruktionen, sodass der Agent Nachfragen stellt nach der gewünschten Sprache.
-- Führen sie einen weiteren Verhaltenstest aus.
-- Beachten sie insbesondere die *Activity Map* um das Verhalten zu verstehen.
+- Testen sie ihren Agent. 
+- Ihr Agent sollte nun in der Lage sein mittels den Instruktionen und dem Wissen Fragen über Tickets und auch Fragen zu Wissensartikeln zu beantworten.
 
 ### Ergebnisse
 - Der Helpdesk Agent wurde nun als generative Agent neu designed und grundlegendes Verhalten wurde definiert. Die Grundlage für die weiteren Labs ist gelegt, um dem Agent Wissen und einen 'Werkzeugkasten' an Fähigkeiten beizubringen.
+
 
 
 ## Weiterführende Links
