@@ -43,9 +43,6 @@ Zeit: 15 min
 - Ihr Agent sollte nun in der Lage sein mittels den Instruktionen und dem Wissen Fragen über Tickets und auch Fragen zu Wissensartikeln zu beantworten.
 
 ### Ergebnisse
-- Der Helpdesk Agent wurde nun als generative Agent neu designed und grundlegendes Verhalten wurde definiert. Die Grundlage für die weiteren Labs ist gelegt, um dem Agent Wissen und einen 'Werkzeugkasten' an Fähigkeiten beizubringen.
-
-
+- Der Helpdesk Agent kann nun Antworten zu aktuellen Helpdesk Tickets und auch Wissensartikeln beantworten.
 
 ## Weiterführende Links
-- [Copilot Studio - Generative Orchestration](https://learn.microsoft.com/en-us/microsoft-copilot-studio/advanced-generative-actions)
