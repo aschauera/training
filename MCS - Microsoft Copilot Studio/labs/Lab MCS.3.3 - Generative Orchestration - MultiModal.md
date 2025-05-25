@@ -12,7 +12,7 @@ In diesem Lab werden Multi Modale Interaktionen vorgestellt, zur Analyse von Bil
 2. Stellen sie sicher dass die richtige Umgebung ausgewählt ist (rechts oben unter "Umgebung" oder "Environment")
 3. Öffnen sie den Agent welchen sie in [Lab MCS.3.1](Lab%20MCS.3.1%20-%20Generative%20Orchestration.md) erstellt haben
 
-## Übung 1: Der Helpdesk Agent lernt Bilder zu analysieren
+## Übung 1: Der Helpdesk Agent lernt Bilder von Fehlern zu analysieren
 Zeit: 25 
 ### Ziele
 - Teilnehmer können Multi Modale Interaktionen gestalten.
@@ -25,8 +25,15 @@ Zeit: 25
 **1. Multi Modalität**
 
 - Unter *Settings > Generative AI* stellen sie sicher dass der Bildupload aktiviert ist.
+
 - Erweitern sie die Instruktionen, sodass der Agent bei einem Bildupload spezifisch den Fehler analysiert.
+
 - Testen sie den Agenten in dem sie das Beispielbild hochladen und entsprechende Fragen dazu stellen [Downlaod Fehlerbild](../labs/data/M04_VPN_error_sample_image.png)
+
+**2. Deep reasoning**
+
+- Versuchen sie mittels *Deep reasoning* eine Analyse über die Fehlergründe zu erstellen.
+    - Hinweis: Schlüsselwort *'reason'* in den Instruktionen einsetzten um Deep reasoning zu aktivieren.
 
 ### Ergebnisse
 - Der Helpdesk Agent wurde nun als generative Agent neu designed und grundlegendes Verhalten wurde definiert. Die Grundlage für die weiteren Labs ist gelegt, um dem Agent Wissen und einen 'Werkzeugkasten' an Fähigkeiten beizubringen.
