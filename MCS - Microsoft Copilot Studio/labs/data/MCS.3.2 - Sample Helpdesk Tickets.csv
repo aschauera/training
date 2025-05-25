@@ -1,0 +1,26 @@
+TicketID,CreatedBy,Title,Issue,Category,Status
+1,Alex Johnson,Password Reset,Unable to reset password,Authentication,New
+2,Sophia Martinez,Email Configuration,Email client not syncing,Communication,Open
+3,Ethan Williams,Network Issue,No internet connectivity,Infrastructure,Resolved
+4,Emma Brown,Software Installation,Unable to install required application,Software,New
+5,Liam Davis,Printer Offline,Printer not responding,Hardware,Resolved
+6,Olivia Miller,Access Request,Need permissions for shared folder,Security,Open
+7,Noah Wilson,System Crash,Computer freezes frequently,Hardware,New
+8,Ava Garcia,VPN Failure,Cannot connect to company VPN,Connectivity,Resolved
+9,Lucas Taylor,Disk Space Full,Running low on storage,Storage,Open
+10,Isabella Anderson,Account Lockout,Too many failed login attempts,Authentication,New
+11,Mason Thomas,Two-Factor Issue,2FA code not received,Security,Resolved
+12,Charlotte White,Slow Internet,Network speed too slow,Infrastructure,Open
+13,Benjamin Harris,Application Error,Work application crashes on startup,Software,New
+14,Amelia Scott,Hardware Failure,Monitor not turning on,Hardware,Resolved
+15,James Lee,Software Update,Unable to update operating system,Software,Open
+16,Mia Hall,Shared Drive Access,Can't open shared drive,Storage,New
+17,Henry Baker,Outlook Not Responding,Email application freezes,Communication,Resolved
+18,Emily Young,Database Connection Failure,Unable to access company database,Infrastructure,Open
+19,Daniel Green,Mobile Device Setup,Issues configuring work phone,Mobile,New
+20,Grace Adams,Remote Desktop Failure,Can't connect to remote workstation,Connectivity,Resolved
+TicketID,CreatedBy,Title,Issue,Category,Status
+21,David Parker,Wi-Fi Connection Dropping,Intermittent Wi-Fi disconnects,Network Issue,Open
+22,Sarah Mitchell,High Latency,Experiencing lag in network response,Network Issue,New
+23,William Rodriguez,Firewall Blocking Access,Certain websites are not accessible,Network Issue,Resolved
+
