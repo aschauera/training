@@ -17,7 +17,7 @@ Zeit: 30 min
 - Teilnehmer kennen die Grundlagen der Classic Orchestration und können Dialoge mittels Themen strukturieren, sowie den Dialogfluss verwalten. Zudem sind die Teilnehmer in der Lage Benutzerinterkationen natürlichsprachig zu gestalten.
 
 ### Gewünschte Ergebnisse
--  Der Helpdesk Agent soll Benutzern mehrere geführte Dialoge bieten rund um Informationen und Austausch von Hardware. In dieser Übung werden die Dialoge mit statischen Werten erstellt. In Lab XXX werden diese mit Informationen aus einem Backend System (Microsoft Dataverse) dynamisch gestaltet.
+-  Der Helpdesk Agent soll Benutzern mehrere geführte Dialoge bieten rund um Informationen und Austausch von Hardware. In dieser Übung werden die Dialoge mit statischen Werten erstellt. Später werden diese mit Informationen aus einem Backend System (Microsoft Dataverse) dynamisch gestaltet.
 
 ### Schritte
 **1. Hardware Refresh Dialog**
