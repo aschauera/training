@@ -34,7 +34,7 @@ Zeit: 30 min
 
 5. Im selben Einstellungsbereich unter *Security* passen sie die Authentifizierungsoptionen so an, dass eine Verwendung anonym möglich ist.
 
-6. Passen sie das Willkommens Thema an und auch das *Conversation Start*, sodass ein Benutzer weiss was er/sie mit dem Agent erreichen kann.
+6. Passen sie das Willkommens Thema an und auch das *Conversation Start*, sodass ein Benutzer weiss was er/sie mit dem Agent erreichen kann und mit Namen begrüsst wird.
 
 ### Ergebnisse
 - Ein grundlegender interaktiver (Chat) Agent ist verfügbar. Der Agent nutzt *Classic Orchestration* um eingehende Anfragen mittels Intent Erkennung auf Themen aufzuteilen.
