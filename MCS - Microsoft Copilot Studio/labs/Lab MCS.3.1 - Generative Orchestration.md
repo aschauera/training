@@ -16,7 +16,7 @@ In diesem Lab werden die Grundlagen der *Generative Orchestration* erkundet, mit
 ## Übung 1: Der Helpdesk Agent wird weiter verbessert mit GPT
 Zeit: 25 min
 ### Ziele
-- Teilnehmer kennen die Vorteile die Generative Orchestration bietet.
+- Teilnehmer kennen die Vorteile und Besonderheiten, die die Generative Orchestration bietet.
 
 ### Gewünschte Ergebnisse
 -  Der Helpdesk Agent soll zukunftssicher gestaltet werden und besonders natürlichsprachig. Zudem soll die Grundlage geschaffen werden in Zukunft neue Fähigkeiten einfach nachzureichen.

@@ -41,8 +41,11 @@ Zeit: 15 min
 
 - Testen sie ihren Agent. 
 - Ihr Agent sollte nun in der Lage sein mittels den Instruktionen und dem Wissen Fragen über Tickets und auch Fragen zu Wissensartikeln zu beantworten.
+- Beispielanfragen: *"How many Tickets are open?"*
 
 ### Ergebnisse
 - Der Helpdesk Agent kann nun Antworten zu aktuellen Helpdesk Tickets und auch Wissensartikeln beantworten.
 
 ## Weiterführende Links
+
+[Datenimport mit PowerQuery](https://learn.microsoft.com/en-us/power-query/dataflows/add-data-power-query)

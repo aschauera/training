@@ -40,4 +40,5 @@ Zeit: 25
 
 
 ## Weiterführende Links
-- [Copilot Studio - Generative Orchestration](https://learn.microsoft.com/en-us/microsoft-copilot-studio/advanced-generative-actions)
+
+[Copilot Studio - Image Upload](https://learn.microsoft.com/en-us/microsoft-copilot-studio/image-input-analysis)

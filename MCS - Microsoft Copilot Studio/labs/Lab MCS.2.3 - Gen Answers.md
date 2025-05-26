@@ -11,7 +11,7 @@ In diesem Lab werden die Möglichkeiten, die *Generative Answers* bieten vorgest
 1. Navigieren sie zu [https://copilotstudio.microsoft.com](https://copilotstudio.microsoft.com)
 2. Stellen sie sicher dass die richtige Umgebung ausgewählt ist (rechts oben unter "Umgebung" oder "Environment")
 3. Öffnen sie den *Helpdesk Agent*, welchen sie in Lab MCS.1.1 erstellt haben. Sie finden die Anleitung dazu in der Datei [Lab MCS.1.1](Lab%20MCS.1.1%20-%20Create%20an%20agent.md)
-4. 
+
 
 ## Übung 1: Fragen beantworten mittels Generative Answers
 Zeit: 15 min
@@ -35,8 +35,6 @@ Zeit: 15 min
 
 - Testen sie das Verhalten des Agenten. Durch Eingabe einer Frage, welche nicht durch ein Thema abedeckt ist. 
     - Beispiel: "Wie setze ich mein Passwort zurück?"
-
-- Weisen sie das LLM an Antworten auf Deutsch zu erstllen.
 
 
 ### Ergebnisse

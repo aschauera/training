@@ -1,4 +1,4 @@
-# Lab MCS.1.2: Microsoft Copilot Studio Topics: Erstellung | Verwaltung | Strukturierung
+# Lab MCS.2.1: Microsoft Copilot Studio Topics: Erstellung | Verwaltung | Strukturierung
 
 ## Übersicht
 Dieses Lab liefert eine Einführung in die Strukturierung von Dialogen mittels Topics.

@@ -42,12 +42,13 @@ Zeit: 15 min
 
         - Verwenden sie die Starter Vorlage *Work Item Thumbnail* aus dem [Adaptive Card Designer](https://adaptivecards.microsoft.com/designer.html)
         
-            ![Vorlage](../img/M03_Adaptive_Card_designer_template.png)
+        ![Vorlage](../img/M03_Adaptive_Card_designer_template.png)
+    - Nun sollen Werte aus Variable in die Adaptive Card eingefügt werden. Stellen sie dazu direkt im Designer von 'JSON' auf 'Formula' um.
+    
+        ![alt text](../img/M02_FormulaCard.png) Nun können direkt in dem JSON die Variablen mit ihrem vollen Namen eingefügt werden. (Beispiel: Topic.Seriennummer)
 
 ### Ergebnisse
 - Der Helpdesk Agent wurde um neue UI Funktionen ergänzt mittels Adaptive Cards
-
-### Hinweise
 
 ## Weiterführende Links
 - [Adaptive Card Designer](https://adaptivecards.microsoft.com/designer.html)
